@@ -66,17 +66,26 @@
     </div>
 
     <div class="col-sm-3">
-        4
+        left bar
     </div>
 
     <div class="col-xs-9">
-        <div class="row advert">
+        <div class="row advert-list-item">
+            <div class="col-md-3 col-xs-4" href="#">
+                <img src="no_photo.png" class="img-thumbnail advert-photo">
 
-            <span class="col-xs-1 photo" href="#">
-                <img src="no_photo.png">
-            </span>
-            <div class="col-md-4 description">1</div>
-            <div class="col-md-4 summary">1</div>
+            </div>
+
+            <div class="col-md-6 description" href="#">
+                <div class="clip">
+                    <a class="title" href="#">Dapibus ac facilisis in</a>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 description" href="#">
+                <span class="price one-half-rem">13 990р.</span>
+            </div>
         </div>
     </div>
 </div>

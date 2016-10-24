@@ -78,32 +78,64 @@ body {
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
 }
 
-.advert:hover {
-    border: 1px solid #919191;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);;
-}
-
-.advert {
+.advert-list-item {
     border: 1px solid #9f9f9f;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    margin: 10px auto;
+    /*margin-left: 10px auto;*/
 }
 
-.advert > .caption {
+.advert-list-item:hover {
+    border: 1px solid #919191;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);;
+}
+
+.advert-list-item .advert-info {
+    padding: 5px 10px;
+}
+
+.advert-list-item .advert-photo {
+    cursor: pointer;
+    border: none !important;
+}
+
+.clickable-link {
+    color: #666;
     cursor: pointer;
 }
 
-.advert > .photo {
-    display: inline-block;
-    width: 125px;
-    height: 125px;
-    overflow: hidden;
+.clickable-link:hover {
+    color: #333;
     cursor: pointer;
 }
 
-.advert > .photo > img {
-    width: 125px;
-    height: 125px;
+.one-half-rem {
+    font-size: 1.5rem;
+}
+
+.advert-list-item a.title {
+    padding-top: 8px;
+    text-decoration: none;
+    color: #444;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.advert-list-item a.title:hover {
+    color: #111;
+}
+
+.advert-list-item .price{
+    font-size: 2.7rem;
+}
+
+.clip {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.description {
+    padding-top:8px;
 }
