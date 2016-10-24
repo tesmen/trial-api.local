@@ -24,10 +24,10 @@
     <div class="row">
         <div class="col-xs-3 dropdown hidden-xs">
             <button type="button" class="col-xs-12 btn btn-default btn-md catalog-menu-button" data-toggle="dropdown">
-                <span class="pull-left">Catalog</span>
-
-                <span class="glyphicon glyphicon-th-list pull-right"></span>
+                <span class="glyphicon glyphicon-th-list"></span>
+                <span class="">Catalog</span>
             </button>
+
 
             <div class="list-group dropdown-menu unbound-list-group catalog-menu">
                 <a href="#" class="list-group-item unclickable-dropdown-item" data-label-for="menu1">Unclickable-dropdown-item</a>
@@ -50,8 +50,23 @@
                     <a href="#" class="list-group-item">Vestibulum at eros</a>
                 </div>
             </div>
+        </div>
 
+        <div class="col-lg-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
 
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Поиск!</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <button type="button" class="col-xs-12 btn btn-default btn-md">
+                <span class="glyphicon glyphicon-plus"></span>
+                <span class="">Добавить объявление</span>
+            </button>
         </div>
 
         <div class="spacer-25 col-xs-12"></div>
@@ -66,7 +81,38 @@
     </div>
 
     <div class="col-sm-3">
-        left bar
+        <h4 class="media-heading">Последнее!</h4>
+
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="01.jpg" alt="..." width="64">
+                </a>
+            </div>
+
+            <div class="media-body">
+                <h4 class="media-heading clickable-link">Media heading</h4>
+                Cras sit amet nibh libero, in gravida
+                nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate
+                at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                felis in faucibus.s
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="no_photo.png" alt="..." width="64">
+                </a>
+            </div>
+
+            <div class="media-body">
+                <h4 class="media-heading clickable-link">Media heading</h4>
+                Cras sit amet nibh libero, in gravida
+                nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate
+                at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                felis in faucibus.s
+            </div>
+        </div>
     </div>
 
     <div class="col-xs-9">
@@ -83,6 +129,10 @@
 
                 <div class="clip">
                     <span class="description text-gray" href="#">Dapibus ac facilisis in Vestibulum at erosDapibus ac facilisis in Vestibulum at erosDapibus ac facilisis in Vestibulum at eros</span>
+                </div>
+
+                <div>
+
                 </div>
 
             </div>
