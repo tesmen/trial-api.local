@@ -4,7 +4,7 @@
 <script src="bootstrap.js"></script>
 <script src="common-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="bootstrap-theme.css"/>
+<!--<link rel="stylesheet" type="text/css" href="bootstrap-theme.css"/>-->
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
 <div class="container">
