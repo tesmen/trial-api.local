@@ -18,30 +18,37 @@
         <div class="col-xs-4 hidden-xs v-user-bar">v-user-bar</div>
     </div>
 
-    <div class="spacer-50 col-xs-12"></div>
+    <div class="spacer-25 col-xs-12"></div>
 
-    <div class="col-xs-12 hidden-xs v-nav ">
-        <ul class="nav nav-pills nav-justified">
-            <li class="presentation hidden-xs v-logo active"><a href="#">Catalog</a></li>
-            <li class="presentation hidden-xs v-about"><a href="#">Masters</a></li>
-            <!--            <li class="col-xs-3 hidden-xs v-user-bar"><a href="#">Places</a></li>-->
-            <li class="presentation hidden-xs v-user-bar"><a href="#">Routes</a></li>
-            <!--            <li class="col-xs-2 hidden-xs v-user-bar"><a href="#">Bonuses</a></li>-->
-        </ul>
+    <div class="row">
+        <div class="col-xs-3 dropdown hidden-xs">
+            <button type="button" class="col-xs-12 btn btn-default btn-md" data-toggle="dropdown">
+                <span class="pull-left">Catalog</span>
+
+                <span class="glyphicon glyphicon-th-list pull-right"></span>
+            </button>
+
+            <ul class="nav nav-pills nav-stacked dropdown-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+            </ul>
+        </div>
+
+        <div class="spacer-25 col-xs-12"></div>
+
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="active">Data</li>
+            </ol>
+        </div>
     </div>
 
-    <div class="spacer-50 col-xs-12"></div>
-
-    <div class="col-xs-3 hidden-xs">
-        <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
-        </ul>
+    <div class="row">
+        <div class="col-xs-12">
+            content
+        </div>
     </div>
-    <div class="col-xs-9 content">
-
-    </div>
-
-
 </div>
