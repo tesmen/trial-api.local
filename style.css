@@ -35,8 +35,8 @@ body {
 }
 
 .services .item {
-    margin: 15px;
-    line-height: 2em;
+    margin:  0 15px;
+    line-height: 2.5rem;
     cursor: pointer;
 }
 

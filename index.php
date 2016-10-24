@@ -11,13 +11,13 @@
     <div class="services col-md-12">
         <a class="item">Объявления</a>
         <a class="item">Помощь</a>
+        <a class="item pull-right">Личный кабинет</a>
     </div>
 
-    <div class="col-xs-12 hidden-xs v-header">
-        <div class="col-xs-4 hidden-xs v-logo">v-logo</div>
-        <div class="col-xs-4 hidden-xs v-about">v-about</div>
-        <div class="col-xs-4 hidden-xs v-user-bar">v-user-bar</div>
-    </div>
+<!--    <div class="col-xs-12 hidden-xs v-header">-->
+<!--        <div class="col-xs-4 hidden-xs v-logo">v-logo</div>-->
+<!--        <div class="col-xs-4 hidden-xs v-about">v-about</div>-->
+<!--    </div>-->
 
     <div class="spacer-25 col-xs-12"></div>
 
@@ -93,9 +93,7 @@
             <div class="media-body">
                 <h4 class="media-heading clickable-link">Media heading</h4>
                 Cras sit amet nibh libero, in gravida
-                nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate
-                at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                felis in faucibus.s
+                nulla. Nulla vel metus sceler
             </div>
         </div>
         <div class="media">
@@ -108,9 +106,7 @@
             <div class="media-body">
                 <h4 class="media-heading clickable-link">Media heading</h4>
                 Cras sit amet nibh libero, in gravida
-                nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate
-                at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                felis in faucibus.s
+                nulla.
             </div>
         </div>
     </div>
