@@ -2,6 +2,7 @@
 
 <script src="jquery-3.1.0.min.js"></script>
 <script src="bootstrap.js"></script>
+<script src="common-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
 <link rel="stylesheet" type="text/css" href="bootstrap-theme.css"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -21,18 +22,35 @@
     <div class="spacer-25 col-xs-12"></div>
 
     <div class="row">
-        <div class="col-xs-3 dropdown hidden-xs">
+        <div class="col-xs-4 dropdown hidden-xs">
             <button type="button" class="col-xs-12 btn btn-default btn-md" data-toggle="dropdown">
                 <span class="pull-left">Catalog</span>
 
                 <span class="glyphicon glyphicon-th-list pull-right"></span>
             </button>
 
-            <ul class="nav nav-pills nav-stacked dropdown-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Messages</a></li>
-            </ul>
+            <div class="list-group dropdown-menu unbound-list-group">
+                <a href="#" class="list-group-item unclickable-dropdown-item" data-label-for="menu1">Unclickable-dropdown-item</a>
+                <a href="#" class="list-group-item unclickable-dropdown-item" data-label-for="menu2">Unclickable-dropdown-item 2 </a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+
+                <div class="list-group main-submenu unbound-list-group display-none" id="menu1">
+                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+                </div>
+
+                <div class="list-group main-submenu unbound-list-group display-none" id="menu2">
+                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item">Morbi leo risus</a>
+                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+                </div>
+            </div>
+
+
         </div>
 
         <div class="spacer-25 col-xs-12"></div>
