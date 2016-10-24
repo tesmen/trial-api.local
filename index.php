@@ -10,14 +10,10 @@
 <div class="container">
     <div class="services col-md-12">
         <a class="item">Объявления</a>
+        <a class="item">Город</a>
         <a class="item">Помощь</a>
         <a class="item pull-right">Личный кабинет</a>
     </div>
-
-<!--    <div class="col-xs-12 hidden-xs v-header">-->
-<!--        <div class="col-xs-4 hidden-xs v-logo">v-logo</div>-->
-<!--        <div class="col-xs-4 hidden-xs v-about">v-about</div>-->
-<!--    </div>-->
 
     <div class="spacer-25 col-xs-12"></div>
 
