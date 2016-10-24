@@ -91,7 +91,7 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);;
 }
 
-.advert-list-item .advert-info {
+.advert-list-item .v-advert-info {
     padding: 5px 10px;
 }
 
@@ -130,12 +130,20 @@ body {
     font-size: 2.7rem;
 }
 
-.clip {
-    white-space: nowrap; /* Запрещаем перенос строк */
-    overflow: hidden; /* Обрезаем все, что не помещается в область */
-    text-overflow: ellipsis; /* Добавляем многоточие */
+.advert-list-item .description{
+    color: gray;
 }
 
-.description {
+.clip {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.v-advert-info {
     padding-top:8px;
+}
+
+.text-gray{
+    color: gray;
 }

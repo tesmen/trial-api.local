@@ -71,20 +71,24 @@
 
     <div class="col-xs-9">
         <div class="row advert-list-item">
-            <div class="col-md-3 col-xs-4" href="#">
+            <div class="col-md-2 col-xs-4" href="#">
                 <img src="no_photo.png" class="img-thumbnail advert-photo">
 
             </div>
 
-            <div class="col-md-6 description" href="#">
+            <div class="col-md-7 col-xs-4 v-advert-info">
                 <div class="clip">
                     <a class="title" href="#">Dapibus ac facilisis in</a>
                 </div>
 
+                <div class="clip">
+                    <span class="description text-gray" href="#">Dapibus ac facilisis in Vestibulum at erosDapibus ac facilisis in Vestibulum at erosDapibus ac facilisis in Vestibulum at eros</span>
+                </div>
+
             </div>
 
-            <div class="col-md-3 description" href="#">
-                <span class="price one-half-rem">13 990р.</span>
+            <div class="col-md-3 col-xs-4 v-advert-info">
+                <span class="price one-half-rem">13 990 руб.</span>
             </div>
         </div>
     </div>
