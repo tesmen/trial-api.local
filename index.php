@@ -22,14 +22,14 @@
     <div class="spacer-25 col-xs-12"></div>
 
     <div class="row">
-        <div class="col-xs-4 dropdown hidden-xs">
+        <div class="col-xs-3 dropdown hidden-xs">
             <button type="button" class="col-xs-12 btn btn-default btn-md" data-toggle="dropdown">
                 <span class="pull-left">Catalog</span>
 
                 <span class="glyphicon glyphicon-th-list pull-right"></span>
             </button>
 
-            <div class="list-group dropdown-menu unbound-list-group">
+            <div class="list-group dropdown-menu unbound-list-group catalog-menu">
                 <a href="#" class="list-group-item unclickable-dropdown-item" data-label-for="menu1">Unclickable-dropdown-item</a>
                 <a href="#" class="list-group-item unclickable-dropdown-item" data-label-for="menu2">Unclickable-dropdown-item 2 </a>
                 <a href="#" class="list-group-item">Dapibus ac facilisis in</a>

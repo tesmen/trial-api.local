@@ -42,7 +42,7 @@ body {
 .main-submenu {
     position: absolute;
     width: 300px;
-    right: -298px;
+    right: -299px;
     top: 5px;
     display: block;
 }
@@ -50,7 +50,7 @@ body {
 .main-submenu:hover {
     display: block;
 }
-
+/* a non important .hidden */
 .display-none {
     display: none;
 }
