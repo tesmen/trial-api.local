@@ -13,7 +13,6 @@
         <a href="#blue">Blue</a>
     </div>
 
-
     <ng-view></ng-view>
 
     <script type="text/ng-template" id="blue.htm">
