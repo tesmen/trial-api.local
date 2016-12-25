@@ -1,4 +1,4 @@
-angular.module('iqNotify', []).factory('facc', ['$timeout', '$http', '$compile', '$templateCache', '$rootScope',
+angular.module('cgNotify', []).factory('notify', ['$timeout', '$http', '$compile', '$templateCache', '$rootScope',
     function ($timeout, $http, $compile, $templateCache, $rootScope) {
 
         var startTop = 10;
@@ -13,7 +13,6 @@ angular.module('iqNotify', []).factory('facc', ['$timeout', '$http', '$compile',
         var openNotificationsScope = [];
 
         var notify = function (args) {
-            console.log(1)
             if (typeof args !== 'object') {
                 args = {message: args};
             }
@@ -150,16 +149,6 @@ angular.module('iqNotify', []).factory('facc', ['$timeout', '$http', '$compile',
                 element.css('opacity', 0);
             }
         };
-        $rootScope.baz  = 100;
-
-        notify.boo = function () {
-            return 100;
-        };
-
-        notify.getScope = function () {
-            return $rootScope;
-        };
-
 
         return notify;
     }

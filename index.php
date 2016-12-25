@@ -1,11 +1,9 @@
-100
-asdasdasd
+<style>
+    a {
+        font-size: 20px;
+    }
+</style>
 
-<?php
-$a = 1;
-$b = 2;
-$c = $a + $b;
-$name = $_GET["name"];
 
-echo "<div style='color: $name;'>TEEEEEEEEEEEXT </div>";
-?>
+<a href="/angular">angular</a> <br>
+<a href="/markup">markup</a> <br>

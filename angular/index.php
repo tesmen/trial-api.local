@@ -1,7 +1,6 @@
 <meta charset="utf-8">
-<script src="angular/angular.js"></script>
-<script src="angular-notify.js"></script>
-<script src="iq-notify.js"></script>
+<script src="/vendor/angular_1.5.8/angular.js"></script>
+<script src="/vendor/angular_1.5.8/angular-notify.js"></script>
 <link rel="stylesheet" href="notify.css">
 
 <script>
