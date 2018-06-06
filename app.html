@@ -56,7 +56,7 @@
     }
 
     function loadNext() {
-        $.get('http://217.107.34.29/get_quote.php').then(function (response) {
+        $.get('get_quote.php').then(function (response) {
             renderPage(response.id, response.text, response.rates)
         })
     }
@@ -75,7 +75,7 @@
             rate: $('[name="rate"]:checked').val()
         };
 
-        $.get('http://217.107.34.29/rate_quote.php?' + $.param(data)).then(function (response) {
+        $.get('rate_quote.php?' + $.param(data)).then(function (response) {
             loadNext();
         });
     }
