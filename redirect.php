@@ -1,7 +1,7 @@
 <?php
 
 $serverName = "localhost";
-$username = "username";
+$username = "tezmo";
 $password = "password";
 $hash = $_GET['hash'];
 
@@ -11,9 +11,11 @@ if (empty($hash)) {
 }
 
 try {
-    $pdo = new PDO("mysql:host=$serverName;dbname=myDB", $username, $password);
-    $statement = $pdo->prepare('SELECT * FROM my_table WHERE `hash` = :hash');
+    $pdo = new PDO("mysql:host=$serverName;dbname=tezmo_urls", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $statement = $pdo->prepare('SELECT * FROM `urls` where `hash`=:hash');
     $statement->bindParam('hash', $hash);
+    $statement->execute();
     $record = $statement->fetch();
 
     if (!$record) {
@@ -23,7 +25,7 @@ try {
 
     $url = $record['url'];
 
-    header("localtion: $url");
+    header("location: $url");
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }

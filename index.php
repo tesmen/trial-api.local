@@ -13,7 +13,7 @@
         var value = $('#url_id').val();
 
         $.get('/create.php?url=' + value).then(function (data) {
-            $('#output').text('http://service.local/redirect.php?hash=' + data)
+            $('#output').text('http://217.107.34.29/redirect.php?hash=' + data)
         })
     })
 </script>

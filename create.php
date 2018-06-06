@@ -1,6 +1,6 @@
 <?php
 $serverName = "localhost";
-$username = "username";
+$username = "tezmo";
 $password = "password";
 $url = $_GET['url'];
 
@@ -10,8 +10,9 @@ if (empty($url)) {
 
 try {
     $hash = md5($url);
-    $pdo = new PDO("mysql:host=$serverName;dbname=myDB", $username, $password);
-    $statement = $pdo->prepare('INSERT INTO my_table (`hash`, `url`) VALUES (:hash, :url)');
+    $pdo = new PDO("mysql:host=$serverName;dbname=tezmo_urls", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $statement = $pdo->prepare('INSERT INTO urls (`hash`, `url`) VALUES (:hash, :url)');
     $statement->bindParam('hash', $hash);
     $statement->bindParam('url', $url);
     $result = $statement->execute();
