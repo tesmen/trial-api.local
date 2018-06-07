@@ -1,0 +1,42 @@
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<style>
+    .container {
+        padding: 3px;
+        width: 600px;
+        margin: auto;
+        border: 1px solid grey;
+    }
+</style>
+
+<div class="container">
+    <span id="title" style="padding: 10px">
+        Цитата №<span id="quote_id">123</span>
+    </span>
+    <hr>
+
+    <div id="text" style="min-height: 200px; padding: 10px">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</div>
+    <hr>
+
+    <div id="buttons" style="padding: 10px">
+        <input type="text" id="name" placeholder="Имя пользователя">
+
+        <input type="radio" name="rate" value="1">1
+        <input type="radio" name="rate" value="2">2
+        <input type="radio" name="rate" value="3">3
+        <input type="radio" name="rate" value="4">4
+        <input type="radio" name="rate" value="5">5
+
+        <button id="make-rate">Оценить</button>
+
+        <button style="float: right;" id="get-next">Следующая цитата</button>
+    </div>
+
+    <div style="padding: 10px">
+        Оценки:
+    </div>
+
+    <div id="rates" style="padding: 10px">
+        {UserName} оценил на 5
+    </div>
+</div>
